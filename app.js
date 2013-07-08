@@ -29,7 +29,7 @@ if ('development' == app.get('env')) {
 }
 
 app.get('*', function(req, res){
-  res.redirect('https://drive.google.com/#folders/0B8IN6XOKkwRTbjlNZnJnM3BMRVE');
+  res.redirect('https://drive.google.com/folderview?id=0B8IN6XOKkwRTbjlNZnJnM3BMRVE&usp=sharing');
   keen.addEvent("applaunch", {"count": 1}, function(err, res) {
     if(err){
       consoloe.log("keen error");
