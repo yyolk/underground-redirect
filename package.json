@@ -1,0 +1,21 @@
+{
+  "name": "underground-redirect",
+  "author": "Joseph Yølk Chiocchi",
+  "repository":{
+    "type": "git",
+    "url": "git://github.com/yyolk/underground-redirect.git"
+  },
+  "engines":{
+    "node": ">= 0.10.x",
+    "npm": "1.2.x"
+  },
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "express": "3.3.1",
+    "keen.io": "*"
+  }
+}
